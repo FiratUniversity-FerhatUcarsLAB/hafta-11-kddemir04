@@ -1,3 +1,13 @@
+/*
+ * Ad Soyad: [ABDULKADİR DEMİR]
+ * Ogrenci No: [240541007]
+ * Tarih: [30.11.2025]
+ * Aciklama:4.1 tamamlandı
+ *
+ *
+ */
+
+
 import java.util.Scanner;
 
 public class Exercise4_1 {
