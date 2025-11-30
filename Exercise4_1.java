@@ -5,21 +5,21 @@ public class Exercise4_1 {
     static void main() {
         Scanner  sc = new Scanner(System.in);
         System.out.println("Day: ");
-        String gun = sc.nextLine();
+        String day = sc.nextLine();
 
         System.out.println("Date: ");
-        int tarih = sc.nextInt();
+        int date = sc.nextInt();
 
         sc.nextLine();
 
         System.out.println("Month: ");
-        String ay = sc.nextLine();
+        String month = sc.nextLine();
 
         System.out.println("Year: ");
-        int yil = sc.nextInt();
+        int year = sc.nextInt();
 
-        printAmerican(gun, tarih,ay,yil);
-        printEuropean(tarih, ay, yil, gun);
+        printAmerican(day, date,month,year);
+        printEuropean(date, month, year, day);
 
         sc.close();
 
