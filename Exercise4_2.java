@@ -1,5 +1,15 @@
 public class Exercise4_2 {
 
+  /*
+ * Ad Soyad: [ABDULKADİR DEMİR]
+ * Ogrenci No: [240541007]
+ * Tarih: [30.11.2025]
+ * Aciklama:4.2 tamamlandı
+ *
+ *
+ */
+
+
   // Her satirin sonuna calisma sirasi yorumlarini ekleyin.
   //baffle metodu ilk ¸ca˘grıldı˘gında blimp parametresinin de˘geri nedir? rattle
   //Programın ¨uretti˘gi t¨um ¸cıktıyı yazınız. Bo¸sluklar ve satır sonları birebir do˘gru olmalıdır.
