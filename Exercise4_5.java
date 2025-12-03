@@ -1,3 +1,47 @@
+/*Ad: Abdulkadir
+Soyad: Demir
+Numara: 240541007
+Tarih: 3.12.2025
+*/
+
+
+
+
+
+//Stack diyagramı:
+//--------------------------------------
+//| zoop("breakfast ", 4)             |  ← En üstte (aktif olan)
+//|  • parametre fred = "breakfast "  |
+//|  • parametre bob = 4              |
+//|  yerel değişken yok
+//--------------------------------------
+//| clink(4)                          |
+//|  • parametre fork = 4             |
+//|  yerel değişken yok               |
+//--------------------------------------
+//| main                              |
+//|  yerel değişkenler:               |
+//|  • bizz = 5                       |
+//|  • buzz = 2                       |
+//|  parametre : String[] args        |
+//--------------------------------------
+
+//Tam çıktı:
+//just for
+//any not  more 
+//It’s breakfast 
+//!
+
+
+
+
+
+
+
+
+
+
+
 public class Exercise4_5 {
 
     public static void zoop(String fred, int bob) {
