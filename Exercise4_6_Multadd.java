@@ -1,16 +1,62 @@
+/*Ad: Abdulkadir
+Soyad: Demir
+No: 240541007
+Tarih: 4.12.2025
+*/
+import java.util.Scanner;
+
 public class Exercise4_6_Multadd {
 
-    public static double multadd(double a, double b, double c) {
-        // TODO
-        return 0.0;
+    static void multadd(){//sin(π/4) + cos(π/4)/2
+        // log10 +log20
+
+        int a = 5, b = 3, c = 7;
+        System.out.println("Sonuç: " + (a * b + c));
+
+        double sonuc1 = Math.log10(10) + Math.log10(20);
+
+        double sonuc2 = Math.sin(Math.toRadians(45)) + Math.cos(Math.toRadians(45) / 2);
+
+
+        System.out.println("Sonuc 1 = " + sonuc1);
+
+        System.out.println("Sonuc 2 = " + sonuc2);
+
+
+
+
+
+
     }
 
-    public static double expSum(double x) {
-        // TODO
-        return 0.0;
+    static double expSum(double x){
+        double exp = Math.exp(-x); //e^-x hesaplıyorum
+
+        double part1 = x * exp;
+
+        double part2 = Math.sqrt(1 - exp);
+
+        return part1 + part2;
+
+
+
     }
 
-    public static void main(String[] args) {
-        // TODO: test methods
+    static void main() {
+        multadd();
+
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Bir sayı giriniz");
+        double n = input.nextDouble();
+        double sonuc = expSum(n);
+        System.out.println("Sonuc = " + sonuc);
+
+        input.close();
+
     }
+
+
+
 }
+
