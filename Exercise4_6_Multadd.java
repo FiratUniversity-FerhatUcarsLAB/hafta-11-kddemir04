@@ -15,7 +15,7 @@ public class Exercise4_6_Multadd {
 
         double sonuc1 = Math.log10(10) + Math.log10(20);
 
-        double sonuc2 = Math.sin(Math.PI / 4) + Math.cos(Math.PI / 2);
+        double sonuc2 = Math.sin(Math.PI / 4) + Math.cos(Math.PI / 4) / 2;
 
 
         System.out.println("Sonuc 1 = " + sonuc1);
